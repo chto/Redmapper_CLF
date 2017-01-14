@@ -1,0 +1,251 @@
+WARNING:  Default is NOT to use central mag correction
+          use_dr8_cen_corr = 0
+WARNING:  Default probability offset is zero
+WARNING: Default is to not use lambda errors
+WARNING:  Default skip do_env (0)
+Parameter file read successful
+Reading clusters file...
+20539  clusters read in
+0.947781
+Reading members file...
+1525968  galaxies read in
+IDL Version 8.2.1 (linux x86_64 m64). (c) 2012, Exelis Visual Information Solutions, Inc.
+Installation number: 12435.
+Licensed for use by: KIPAC/SLAC
+
+% Compiled module: ASTROLIB.
+% ASTROLIB: Astronomy Library system variables have been added
+% Compiled module: SETUPPLOT.
+% Compiled module: PSLAYOUT.
+% Compiled module: TAG_EXIST.
+% Compiled module: SIMPCTABLE.
+% Compiled module: DISPLAY_EXISTS.
+% Compiled module: ARRSCL.
+% Compiled module: NTOSTR.
+% Compiled module: SETFONT.
+% Compiled module: TMPFILE.
+% Compiled module: PATH_JOIN.
+% Compiled module: DEFSYMBOLS.
+% Compiled module: MATCH.
+% Compiled module: RM_KCORR.
+% Compiled module: RUN_MB_KCORR.
+% Compiled module: GET_SOLAR_MASSES.
+/nfs/slac/g/ki/ki19/des/erykoff/des/sva1/gold_1.0/redmapper_v6.1/run_ubermem/sva1_gold_1.0.2_run_redmapper_v6.1.3_uber_lgt5_catalog.fit
+/nfs/slac/g/ki/ki19/des/erykoff/des/sva1/gold_1.0/redmapper_v6.1/run_ubermem/sva1_gold_1.0.2_run_redmapper_v6.1.3_uber_lgt5_catalog_members_mod.fit
+           1           1           1      0.30000000           0
+% Compiled module: MRDFITS.
+% Compiled module: FXPOSIT.
+% Compiled module: FXMOVE.
+% Compiled module: MRD_HREAD.
+% Compiled module: FXPAR.
+% Compiled module: GETTOK.
+% Compiled module: VALID_NUM.
+% Compiled module: MRD_SKIP.
+% Compiled module: SXPAR.
+% Compiled module: MRD_STRUCT.
+MRDFITS: Binary table.  65 columns by  20539 rows.
+MRDFITS: Binary table.  19 columns by  1525968 rows.
+Running set        0 of           15
+% Compiled module: KCORRECT.
+% Compiled module: K_LOAD_VMATRIX.
+% Compiled module: K_READ_ASCII_TABLE.
+% Compiled module: K_PROJECTION_TABLE.
+% Compiled module: KLOG.
+% Compiled module: K_STR_SEP.
+  K_PROJECTION_TABLE: Creating rmatrix ...
+% Compiled module: K_LOAD_FILTERS.
+% Compiled module: YANNY_READONE.
+% Compiled module: YANNY_READ.
+% Compiled module: FILEANDPATH.
+% Compiled module: FDECOMP.
+% Compiled module: STRSPLIT.
+% Compiled module: HOGG_UNQUOTED_REGEX.
+% Compiled module: HOGG_STRSPLIT.
+% Compiled module: YANNY_FREE.
+% Compiled module: KCORRECT_SO_EXT.
+  K_PROJECTION_TABLE: Done.
+% Compiled module: K_FIT_NONNEG.
+% Compiled module: K_RECONSTRUCT_MAGGIES.
+% Compiled module: K_SOLAR_MAGNITUDES.
+% Compiled module: K_READ_BASEL.
+   K_READ_BASEL: 1 block(s) of spectra
+% Compiled module: K_LAMBDA_TO_EDGES.
+% Compiled module: K_PROJECT_FILTERS.
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set        1 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set        2 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set        3 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set        4 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set        5 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set        6 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set        7 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set        8 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set        9 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set       10 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set       11 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set       12 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set       13 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+Running set       14 of           15
+  K_PROJECTION_TABLE: Creating rmatrix ...
+  K_PROJECTION_TABLE: Done.
+   K_READ_BASEL: 1 block(s) of spectra
+    K_PROJECTION_TABLE: Creating rmatrix ...
+    K_PROJECTION_TABLE: Done.
+% Compiled module: LF_DISTMOD.
+% Program caused arithmetic error: Floating illegal operand
+% Compiled module: MWRFITS.
+% Compiled module: FXADDPAR.
+1525968  galaxies kcorrected
+Ultimate max z cut is at:  1.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  275.204
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:194: RuntimeWarning: invalid value encountered in divide
+  s = np.log(cat_chisq/cat_chisq_mod)
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:204: RuntimeWarning: divide by zero encountered in log
+  xvec = np.log(cat_chisq_mod)
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:227: RuntimeWarning: divide by zero encountered in log
+  fblue=1.0-predfunc_fiducial(np.log(cat_chisq_mod))
+Done setting up bootstrap samples
+Calculating n(z)...
+Done calculating n(z)
+Calculating n(lambda)...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+Done calculating n(lambda)
+Done calculating bonus listing of massive clusters
+[[ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]] [[  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]] [ 0.1  0.2  0.3  0.4  0.5  0.6  0.7  0.8] [ 0.2  0.3  0.4  0.5  0.6  0.7  0.8  0.9]
+Calculating CLF...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:329: RuntimeWarning: invalid value encountered in divide
+  clf = clf/nclusters_lum/dlum
+Beginning CLF covariance calculations...
+Done calculating CLF
+Calculating P(BCG!=central)...
+    Printing P(BCG!=central)...
+    Done printing
+Calculating brightest satellite clf...
+Calculating joint brightest sat-central distribution...
+PCEN:  1.35283952951 20539 102001 8045 20534.06593
+
+------------------------------------------------------------
+Sender: LSF System <lsf@orange091>
+Subject: Job 574288: <python redm_full.py param_sva1_gold_uber.dat> in cluster <slac> Done
+
+Job <python redm_full.py param_sva1_gold_uber.dat> was submitted from host <ki-ls09> by user <rmredd> in cluster <slac>.
+Job was executed on host(s) <orange091>, in queue <kipac-ibq>, as user <rmredd> in cluster <slac>.
+</u/ki/rmredd> was used as the home directory.
+</u/ki/rmredd/code/python/redmapper> was used as the working directory.
+Started at Tue May 13 19:55:37 2014
+Results reported on Tue May 13 20:47:04 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python redm_full.py param_sva1_gold_uber.dat
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               3101.06 sec.
+    Max Memory :             2707 MB
+    Average Memory :         2083.98 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between Total Requested Memory and Max Memory.)
+    Max Swap :               3115 MB
+    Max Processes :          5
+    Max Threads :            14
+
+The output (if any) is above this job summary.
+

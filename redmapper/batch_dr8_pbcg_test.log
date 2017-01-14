@@ -1,0 +1,68 @@
+WARNING:  Default abs_solar is for SDSS i-band at z=0.3
+WARNING: Default is to not use lambda errors
+WARNING:  Default nz_descale (0)
+WARNING:  Default skip do_env (0)
+Parameter file read successful
+Reading clusters file...
+399882  clusters read in
+0.59996
+Reading members file...
+21982271  galaxies read in
+21982271  galaxies kcorrected
+Reading in central magnitudes...
+Ultimate max z cut is at:  3.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  288.476
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:51: RuntimeWarning: divide by zero encountered in log
+  lnchi2 = np.log(chi2)
+Done setting up bootstrap samples
+[[ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]] [[  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]] [ 0.1   0.15  0.2   0.25  0.3 ] [ 0.15  0.2   0.25  0.3   0.33]
+Calculating P(BCG!=central)...
+    Printing P(BCG!=central)...
+    Done printing
+399882
+PCEN:  1.0 399882 938042 211677 398363.894782
+
+------------------------------------------------------------
+Sender: LSF System <lsf@orange067>
+Subject: Job 937329: <python redm_full.py param_dr8.dat> in cluster <slac> Done
+
+Job <python redm_full.py param_dr8.dat> was submitted from host <ki-ls08> by user <rmredd> in cluster <slac>.
+Job was executed on host(s) <orange067>, in queue <kipac-ibq>, as user <rmredd> in cluster <slac>.
+</u/ki/rmredd> was used as the home directory.
+</u/ki/rmredd/code/python/redmapper> was used as the working directory.
+Started at Mon Apr  7 15:42:48 2014
+Results reported on Mon Apr  7 16:54:22 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python redm_full.py param_dr8.dat
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               4295.31 sec.
+    Max Memory :             19799 MB
+    Average Memory :         16099.08 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between Total Requested Memory and Max Memory.)
+    Max Swap :               20195 MB
+    Max Processes :          3
+    Max Threads :            4
+
+The output (if any) is above this job summary.
+

@@ -1,0 +1,91 @@
+WARNING:  Default abs_solar is for SDSS i-band at z=0.3
+WARNING: Default is to not use lambda errors
+WARNING:  Default nz_descale (0)
+WARNING:  Default skip do_env (0)
+Parameter file read successful
+Reading clusters file...
+399882  clusters read in
+0.59996
+Reading members file...
+21982271  galaxies read in
+21982271  galaxies kcorrected
+Ultimate max z cut is at:  3.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  288.476
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:194: RuntimeWarning: invalid value encountered in divide
+  s = np.log(cat_chisq/cat_chisq_mod)
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:204: RuntimeWarning: divide by zero encountered in log
+  xvec = np.log(cat_chisq_mod)
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:227: RuntimeWarning: divide by zero encountered in log
+  fblue=1.0-predfunc_fiducial(np.log(cat_chisq_mod))
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:228: RuntimeWarning: divide by zero encountered in divide
+  gal_epsblue=fblue/(1.0-fblue)
+Done setting up bootstrap samples
+Calculating n(z)...
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pz_utils.py:71: RuntimeWarning: invalid value encountered in greater
+  alist = np.where(lambda_err>0)[0]
+Done calculating n(z)
+Calculating n(lambda)...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+Done calculating n(lambda)
+Done calculating bonus listing of massive clusters
+[[ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]] [[  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]] [ 0.1   0.15  0.2   0.25  0.3 ] [ 0.15  0.2   0.25  0.3   0.33]
+Calculating CLF...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:329: RuntimeWarning: invalid value encountered in divide
+  clf = clf/nclusters_lum/dlum
+Beginning CLF covariance calculations...
+Done calculating CLF
+Calculating P(BCG!=central)...
+    Printing P(BCG!=central)...
+    Done printing
+Calculating brightest satellite clf...
+Calculating joint brightest sat-central distribution...
+Terminated
+
+------------------------------------------------------------
+Sender: LSF System <lsf@orange090>
+Subject: Job 190932: <python redm_full.py param_dr8_corr.dat> in cluster <slac> Exited
+
+Job <python redm_full.py param_dr8_corr.dat> was submitted from host <ki-ls09> by user <rmredd> in cluster <slac>.
+Job was executed on host(s) <orange090>, in queue <kipac-ibq>, as user <rmredd> in cluster <slac>.
+</u/ki/rmredd> was used as the home directory.
+</u/ki/rmredd/code/python/redmapper> was used as the working directory.
+Started at Tue May  6 19:30:01 2014
+Results reported on Wed May  7 09:56:44 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python redm_full.py param_dr8_corr.dat
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 143.
+
+Resource usage summary:
+
+    CPU time :               52323.34 sec.
+    Max Memory :             31179 MB
+    Average Memory :         27250.62 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between Total Requested Memory and Max Memory.)
+    Max Swap :               46829 MB
+    Max Processes :          3
+    Max Threads :            4
+
+The output (if any) is above this job summary.
+

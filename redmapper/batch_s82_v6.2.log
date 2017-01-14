@@ -1,0 +1,161 @@
+WARNING:  Default is NOT to use central mag correction
+          use_dr8_cen_corr = 0
+WARNING: Default is to not use lambda errors
+WARNING:  Default skip do_env (0)
+Parameter file read successful
+Reading clusters file...
+19672  clusters read in
+0.749979
+Reading members file...
+578604  galaxies read in
+IDL Version 8.2.1 (linux x86_64 m64). (c) 2012, Exelis Visual Information Solutions, Inc.
+Installation number: 12435.
+Licensed for use by: KIPAC/SLAC
+
+% Compiled module: ASTROLIB.
+% ASTROLIB: Astronomy Library system variables have been added
+% Compiled module: SETUPPLOT.
+% Compiled module: PSLAYOUT.
+% Compiled module: TAG_EXIST.
+% Compiled module: SIMPCTABLE.
+% Compiled module: DISPLAY_EXISTS.
+% Compiled module: ARRSCL.
+% Compiled module: NTOSTR.
+% Compiled module: SETFONT.
+% Compiled module: TMPFILE.
+% Compiled module: PATH_JOIN.
+% Compiled module: DEFSYMBOLS.
+% Compiled module: MATCH.
+% Compiled module: RM_KCORR.
+% Compiled module: RUN_MB_KCORR.
+% Compiled module: GET_SOLAR_MASSES.
+/nfs/slac/g/ki/ki19/des/erykoff/clusters/process/stripe82_redmapper_v6.2/run/stripe82_run_redmapper_v6.2.8_lgt5_catalog.fit
+/nfs/slac/g/ki/ki19/des/erykoff/clusters/process/stripe82_redmapper_v6.2/run/stripe82_run_redmapper_v6.2.8_lgt5_catalog_members.fit
+           0           1           1      0.30000000           0
+% Compiled module: MRDFITS.
+% Compiled module: FXPOSIT.
+% Compiled module: FXMOVE.
+% Compiled module: MRD_HREAD.
+% Compiled module: FXPAR.
+% Compiled module: GETTOK.
+% Compiled module: VALID_NUM.
+% Compiled module: MRD_SKIP.
+% Compiled module: SXPAR.
+% Compiled module: MRD_STRUCT.
+MRDFITS: Binary table.  67 columns by  19672 rows.
+MRDFITS: Binary table.  21 columns by  578604 rows.
+sdss_g0.par sdss_r0.par sdss_i0.par sdss_z0.par
+    0.0501516     0.749514
+% Compiled module: KCORRECT.
+% Compiled module: K_LOAD_VMATRIX.
+% Compiled module: K_READ_ASCII_TABLE.
+% Compiled module: K_PROJECTION_TABLE.
+% Compiled module: K_LOAD_FILTERS.
+% Compiled module: YANNY_READONE.
+% Compiled module: YANNY_READ.
+% Compiled module: FILEANDPATH.
+% Compiled module: FDECOMP.
+% Compiled module: STRSPLIT.
+% Compiled module: HOGG_UNQUOTED_REGEX.
+% Compiled module: HOGG_STRSPLIT.
+% Compiled module: YANNY_FREE.
+% Compiled module: KCORRECT_SO_EXT.
+% Compiled module: K_FIT_NONNEG.
+% Compiled module: K_RECONSTRUCT_MAGGIES.
+I got LRG1
+% Compiled module: K_SOLAR_MAGNITUDES.
+% Compiled module: K_READ_BASEL.
+% Compiled module: KLOG.
+% Compiled module: K_STR_SEP.
+   K_READ_BASEL: 1 block(s) of spectra
+% Compiled module: K_LAMBDA_TO_EDGES.
+% Compiled module: K_PROJECT_FILTERS.
+% Compiled module: LF_DISTMOD.
+% Program caused arithmetic error: Floating overflow
+% Program caused arithmetic error: Floating illegal operand
+% Compiled module: MWRFITS.
+% Compiled module: FXADDPAR.
+578604  galaxies kcorrected
+Ultimate max z cut is at:  3.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  142.15
+WARNING: Unable to locate necessary tag chisq_mod.  Exitting...
+         No correction made
+Done setting up bootstrap samples
+Calculating n(z)...
+Done calculating n(z)
+Calculating n(lambda)...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+Done calculating n(lambda)
+Done calculating bonus listing of massive clusters
+[[ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]] [[  20.   40.  100.]
+ [  20.   40.  100.]
+ [  20.   40.  100.]
+ [  20.   40.  100.]
+ [  20.   40.  100.]] [ 0.1  0.2  0.3  0.4  0.5] [ 0.2  0.3  0.4  0.5  0.6]
+Calculating CLF...
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:37: RuntimeWarning: invalid value encountered in less_equal
+  mylist = np.where( (mag <= maxlum) & (mag >= minlum) )[0]
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:37: RuntimeWarning: invalid value encountered in greater_equal
+  mylist = np.where( (mag <= maxlum) & (mag >= minlum) )[0]
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:329: RuntimeWarning: invalid value encountered in divide
+  clf = clf/nclusters_lum/dlum
+Beginning CLF covariance calculations...
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:186: RuntimeWarning: invalid value encountered in less
+  mylist = np.where( (mag < maxlum) & (mag >= minlum))[0]
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:186: RuntimeWarning: invalid value encountered in greater_equal
+  mylist = np.where( (mag < maxlum) & (mag >= minlum))[0]
+Done calculating CLF
+Calculating P(BCG!=central)...
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_pbcg.py:73: RuntimeWarning: invalid value encountered in greater
+  clist = np.where( (glist!=cindex[zlist[i]][j]) & (mag[glist] > cenmag[zlist[i]][j]) )[0]
+    Printing P(BCG!=central)...
+    Done printing
+Calculating brightest satellite clf...
+Calculating joint brightest sat-central distribution...
+PCEN:  1.41723024845 19672 97074 10609 19662.8480933
+
+------------------------------------------------------------
+Sender: LSF System <lsf@orange093>
+Subject: Job 64772: <python redm_full.py param_s82_v6.2.dat> in cluster <slac> Done
+
+Job <python redm_full.py param_s82_v6.2.dat> was submitted from host <ki-ls10> by user <rmredd> in cluster <slac>.
+Job was executed on host(s) <orange093>, in queue <kipac-ibq>, as user <rmredd> in cluster <slac>.
+</u/ki/rmredd> was used as the home directory.
+</u/ki/rmredd/code/python/redmapper> was used as the working directory.
+Started at Mon Jan  5 15:20:42 2015
+Results reported on Mon Jan  5 15:53:04 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python redm_full.py param_s82_v6.2.dat
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               1931.56 sec.
+    Max Memory :             2149 MB
+    Average Memory :         1480.52 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between Total Requested Memory and Max Memory.)
+    Max Swap :               2562 MB
+    Max Processes :          5
+    Max Threads :            6
+
+The output (if any) is above this job summary.
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+bsub -q xlong -oo batch1.log -R "bullet" "python run_mcmc_z.py /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/mf_dr8_z_0.125.dat /nfs/slac/g/ki/ki10/rmredd/redmapper_data/dr8_zlambda_v5.7/ 0.1 0.15 10405. /nfs/slac/g/ki/ki10/rmredd/redmapper_data/fits_plm_dr8_zlambda_v5.7_lim/"
+bsub -q xlong -oo batch2.log -R "bullet" "python run_mcmc_z.py /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/mf_dr8_z_0.175.dat /nfs/slac/g/ki/ki10/rmredd/redmapper_data/dr8_zlambda_v5.7/ 0.15 0.2 10405. /nfs/slac/g/ki/ki10/rmredd/redmapper_data/fits_plm_dr8_zlambda_v5.7_lim/"
+bsub -q xlong -oo batch3.log -R "bullet" "python run_mcmc_z.py /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/mf_dr8_z_0.225.dat /nfs/slac/g/ki/ki10/rmredd/redmapper_data/dr8_zlambda_v5.7/ 0.2 0.25 10405. /nfs/slac/g/ki/ki10/rmredd/redmapper_data/fits_plm_dr8_zlambda_v5.7_lim/"
+bsub -q xlong -oo batch4.log -R "bullet" "python run_mcmc_z.py /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/mf_dr8_z_0.275.dat /nfs/slac/g/ki/ki10/rmredd/redmapper_data/dr8_zlambda_v5.7/ 0.25 0.3 10405. /nfs/slac/g/ki/ki10/rmredd/redmapper_data/fits_plm_dr8_zlambda_v5.7_lim/"
+bsub -q xlong -oo batch5.log -R "bullet" "python run_mcmc_z.py /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/mf_dr8_z_0.315.dat /nfs/slac/g/ki/ki10/rmredd/redmapper_data/dr8_zlambda_v5.7/ 0.3 0.33 10405. /nfs/slac/g/ki/ki10/rmredd/redmapper_data/fits_plm_dr8_zlambda_v5.7_lim/"

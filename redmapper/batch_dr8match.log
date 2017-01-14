@@ -1,0 +1,78 @@
+WARNING:  Default abs_solar is for SDSS i-band at z=0.3
+WARNING: Default is to not use lambda errors
+WARNING:  Default nz_descale (0)
+WARNING:  Default skip do_env (0)
+Parameter file read successful
+Reading clusters file...
+381882  clusters read in
+0.599989
+Reading members file...
+15619804  galaxies read in
+15619804  galaxies kcorrected
+Reading in central magnitudes...
+Ultimate max z cut is at:  3.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  278.85
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:51: RuntimeWarning: divide by zero encountered in log
+  lnchi2 = np.log(chi2)
+Done setting up bootstrap samples
+Calculating n(z)...
+Done calculating n(z)
+Calculating n(lambda)...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+Done calculating n(lambda)
+Done calculating bonus listing of massive clusters
+[[ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]] [[  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]] [ 0.1   0.15  0.2   0.25  0.3 ] [ 0.15  0.2   0.25  0.3   0.33]
+Calculating CLF...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:355: RuntimeWarning: invalid value encountered in divide
+  clf = clf/nclusters_lum/dlum
+Beginning CLF covariance calculations...
+Done calculating CLF
+
+------------------------------------------------------------
+Sender: LSF System <lsf@orange031>
+Subject: Job 53286: <python redm_full.py param_dr8_ubermem_match.dat> in cluster <slac> Done
+
+Job <python redm_full.py param_dr8_ubermem_match.dat> was submitted from host <ki-ls07> by user <rmredd> in cluster <slac>.
+Job was executed on host(s) <orange031>, in queue <kipac-ibq>, as user <rmredd> in cluster <slac>.
+</u/ki/rmredd> was used as the home directory.
+</u/ki/rmredd/code/python/redmapper> was used as the working directory.
+Started at Mon Jan 20 16:19:29 2014
+Results reported at Tue Jan 21 00:36:14 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python redm_full.py param_dr8_ubermem_match.dat
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               29967.06 sec.
+    Max Memory :             17332 MB
+    Average Memory :         16352.18 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               17686 MB
+
+    Max Processes :          3
+    Max Threads :            4
+
+The output (if any) is above this job summary.
+

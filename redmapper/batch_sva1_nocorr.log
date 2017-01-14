@@ -1,0 +1,96 @@
+WARNING:  Default is NOT to use central mag correction
+          use_dr8_cen_corr = 0
+WARNING:  Default probability offset is zero
+WARNING: Default is to not use lambda errors
+WARNING:  Default skip do_env (0)
+Parameter file read successful
+Reading clusters file...
+30322  clusters read in
+0.899972
+Reading members file...
+2141383  galaxies read in
+2141383  galaxies kcorrected
+Ultimate max z cut is at:  1.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  277.767
+Failed to match use_p_ext -- skipping correction
+Done setting up bootstrap samples
+Calculating n(z)...
+Done calculating n(z)
+Calculating n(lambda)...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+Done calculating n(lambda)
+Done calculating bonus listing of massive clusters
+[[ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]] [[  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]] [ 0.1  0.2  0.3  0.4  0.5  0.6  0.7  0.8] [ 0.2  0.3  0.4  0.5  0.6  0.7  0.8  0.9]
+Calculating CLF...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+Beginning CLF covariance calculations...
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:329: RuntimeWarning: invalid value encountered in divide
+  clf = clf/nclusters_lum/dlum
+Done calculating CLF
+Calculating P(BCG!=central)...
+    Printing P(BCG!=central)...
+    Done printing
+Calculating brightest satellite clf...
+Calculating joint brightest sat-central distribution...
+PCEN:  1.29507058859 30322 150226 10410 30304.6526944
+
+------------------------------------------------------------
+Sender: LSF System <lsf@bullet0143>
+Subject: Job 419744: <python redm_full.py param_sva1_gold_nocorr.dat> in cluster <slac> Done
+
+Job <python redm_full.py param_sva1_gold_nocorr.dat> was submitted from host <ki-ls09> by user <rmredd> in cluster <slac>.
+Job was executed on host(s) <bullet0143>, in queue <xlong>, as user <rmredd> in cluster <slac>.
+</u/ki/rmredd> was used as the home directory.
+</u/ki/rmredd/code/python/redmapper> was used as the working directory.
+Started at Wed May  7 10:00:37 2014
+Results reported on Wed May  7 11:09:42 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python redm_full.py param_sva1_gold_nocorr.dat
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               4140.23 sec.
+    Max Memory :             8664 MB
+    Average Memory :         3279.18 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between Total Requested Memory and Max Memory.)
+    Max Swap :               46105 MB
+    Max Processes :          3
+    Max Threads :            4
+
+The output (if any) is above this job summary.
+

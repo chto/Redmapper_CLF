@@ -1,0 +1,96 @@
+WARNING: Default is to not use lambda errors
+WARNING:  Default skip do_env (0)
+Parameter file read successful
+Reading clusters file...
+23820  clusters read in
+0.749951
+Reading members file...
+2192125  galaxies read in
+2192125  galaxies kcorrected
+Ultimate max z cut is at:  3.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  122.868
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:194: RuntimeWarning: invalid value encountered in divide
+  s = np.log(cat_chisq/cat_chisq_mod)
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:204: RuntimeWarning: divide by zero encountered in log
+  xvec = np.log(cat_chisq_mod)
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:227: RuntimeWarning: divide by zero encountered in log
+  fblue=1.0-predfunc_fiducial(np.log(cat_chisq_mod))
+Done setting up bootstrap samples
+Calculating n(z)...
+Done calculating n(z)
+Calculating n(lambda)...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+Done calculating n(lambda)
+Done calculating bonus listing of massive clusters
+[[ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]
+ [ 10.  20.  40.]] [[  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]
+ [  20.  100.  100.]] [ 0.1  0.2  0.3  0.4  0.5] [ 0.2  0.3  0.4  0.5  0.6]
+Calculating CLF...
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:37: RuntimeWarning: invalid value encountered in less_equal
+  mylist = np.where( (mag <= maxlum) & (mag >= minlum) )[0]
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:37: RuntimeWarning: invalid value encountered in greater_equal
+  mylist = np.where( (mag <= maxlum) & (mag >= minlum) )[0]
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:329: RuntimeWarning: invalid value encountered in divide
+  clf = clf/nclusters_lum/dlum
+Beginning CLF covariance calculations...
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:186: RuntimeWarning: invalid value encountered in less
+  mylist = np.where( (mag < maxlum) & (mag >= minlum))[0]
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:186: RuntimeWarning: invalid value encountered in greater_equal
+  mylist = np.where( (mag < maxlum) & (mag >= minlum))[0]
+Done calculating CLF
+Calculating P(BCG!=central)...
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_pbcg.py:73: RuntimeWarning: invalid value encountered in greater
+  clist = np.where( (glist!=cindex[zlist[i]][j]) & (mag[glist] > cenmag[zlist[i]][j]) )[0]
+    Printing P(BCG!=central)...
+    Done printing
+Calculating brightest satellite clf...
+Calculating joint brightest sat-central distribution...
+PCEN:  1.45588812232 23820 117291 12048 23804.0156337
+
+------------------------------------------------------------
+Sender: LSF System <lsf@orange007>
+Subject: Job 749407: <python redm_full.py param_s82_uber.dat> in cluster <slac> Done
+
+Job <python redm_full.py param_s82_uber.dat> was submitted from host <ki-ls08> by user <rmredd> in cluster <slac>.
+Job was executed on host(s) <orange007>, in queue <kipac-ibq>, as user <rmredd> in cluster <slac>.
+</u/ki/rmredd> was used as the home directory.
+</u/ki/rmredd/code/python/redmapper> was used as the working directory.
+Started at Fri May  2 13:31:30 2014
+Results reported on Fri May  2 14:33:06 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python redm_full.py param_s82_uber.dat
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               3685.30 sec.
+    Max Memory :             2482 MB
+    Average Memory :         2026.29 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between Total Requested Memory and Max Memory.)
+    Max Swap :               3599 MB
+    Max Processes :          3
+    Max Threads :            4
+
+The output (if any) is above this job summary.
+

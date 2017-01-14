@@ -1,0 +1,840 @@
+WARNING:  Default abs_solar is for SDSS i-band at z=0.3
+WARNING:  Default number of colors is 4
+          Tag does nothing unless use_p_ext>=6
+WARNING:  Default is NOT to use central mag correction
+          use_dr8_cen_corr = 0
+WARNING:  Default probability offset is zero
+WARNING: Default is to not use lambda errors
+WARNING:  Default nz_descale (0)
+WARNING:  Default skip do_env (0)
+WARNING:  Default skip do_bsat (0)
+Parameter file read successful
+Reading clusters file...
+406740  clusters read in
+0.599985
+Reading members file...
+23029243  galaxies read in
+IDL Version 8.2.1 (linux x86_64 m64). (c) 2012, Exelis Visual Information Solutions, Inc.
+Installation number: 12435.
+Licensed for use by: KIPAC/SLAC
+
+% Compiled module: ASTROLIB.
+% ASTROLIB: Astronomy Library system variables have been added
+% Compiled module: SETUPPLOT.
+% Compiled module: PSLAYOUT.
+% Compiled module: TAG_EXIST.
+% Compiled module: SIMPCTABLE.
+% Compiled module: DISPLAY_EXISTS.
+% Compiled module: ARRSCL.
+% Compiled module: NTOSTR.
+% Compiled module: SETFONT.
+% Compiled module: TMPFILE.
+% Compiled module: PATH_JOIN.
+% Compiled module: DEFSYMBOLS.
+% Compiled module: MATCH.
+% Compiled module: RM_KCORR.
+% Compiled module: RUN_MB_KCORR.
+% Compiled module: GET_SOLAR_MASSES.
+/nfs/slac/g/ki/ki19/des/erykoff/clusters/process/dr8_redmapper_v6.2/run_ubermem/dr8_run_redmapper_v6.2_ubermem_lgt5_catalog.fit
+/nfs/slac/g/ki/ki19/des/erykoff/clusters/process/dr8_redmapper_v6.2/run_ubermem/dr8_run_redmapper_v6.2_ubermem_lgt5_catalog_members.fit
+           0           1           1      0.30000000           0
+% Compiled module: MRDFITS.
+% Compiled module: FXPOSIT.
+% Compiled module: FXMOVE.
+% Compiled module: MRD_HREAD.
+% Compiled module: FXPAR.
+% Compiled module: GETTOK.
+% Compiled module: VALID_NUM.
+% Compiled module: MRD_SKIP.
+% Compiled module: SXPAR.
+% Compiled module: MRD_STRUCT.
+MRDFITS: Binary table.  66 columns by  406740 rows.
+MRDFITS: Binary table.  19 columns by  23029243 rows.
+Running set        0 of          230
+% Compiled module: KCORRECT.
+% Compiled module: K_LOAD_VMATRIX.
+% Compiled module: K_READ_ASCII_TABLE.
+% Compiled module: K_PROJECTION_TABLE.
+% Compiled module: K_LOAD_FILTERS.
+% Compiled module: YANNY_READONE.
+% Compiled module: YANNY_READ.
+% Compiled module: FILEANDPATH.
+% Compiled module: FDECOMP.
+% Compiled module: STRSPLIT.
+% Compiled module: HOGG_UNQUOTED_REGEX.
+% Compiled module: HOGG_STRSPLIT.
+% Compiled module: YANNY_FREE.
+% Compiled module: KCORRECT_SO_EXT.
+% Compiled module: K_FIT_NONNEG.
+% Compiled module: K_RECONSTRUCT_MAGGIES.
+I got LRG1
+% Compiled module: K_SOLAR_MAGNITUDES.
+% Compiled module: K_READ_BASEL.
+% Compiled module: KLOG.
+% Compiled module: K_STR_SEP.
+   K_READ_BASEL: 1 block(s) of spectra
+% Compiled module: K_LAMBDA_TO_EDGES.
+% Compiled module: K_PROJECT_FILTERS.
+Running set        1 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set        2 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set        3 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set        4 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set        5 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set        6 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set        7 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set        8 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set        9 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       10 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       11 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       12 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       13 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       14 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       15 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       16 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       17 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       18 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       19 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       20 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       21 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       22 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       23 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       24 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       25 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       26 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       27 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       28 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       29 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       30 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       31 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       32 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       33 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       34 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       35 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       36 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       37 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       38 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       39 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       40 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       41 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       42 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       43 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       44 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       45 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       46 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       47 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       48 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       49 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       50 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       51 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       52 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       53 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       54 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       55 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       56 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       57 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       58 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       59 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       60 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       61 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       62 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       63 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       64 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       65 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       66 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       67 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       68 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       69 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       70 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       71 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       72 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       73 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       74 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       75 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       76 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       77 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       78 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       79 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       80 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       81 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       82 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       83 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       84 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       85 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       86 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       87 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       88 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       89 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       90 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       91 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       92 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       93 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       94 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       95 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       96 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       97 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       98 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set       99 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      100 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      101 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      102 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      103 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      104 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      105 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      106 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      107 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      108 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      109 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      110 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      111 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      112 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      113 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      114 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      115 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      116 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      117 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      118 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      119 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      120 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      121 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      122 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      123 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      124 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      125 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      126 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      127 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      128 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      129 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      130 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      131 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      132 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      133 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      134 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      135 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      136 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      137 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      138 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      139 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      140 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      141 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      142 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      143 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      144 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      145 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      146 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      147 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      148 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      149 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      150 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      151 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      152 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      153 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      154 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      155 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      156 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      157 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      158 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      159 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      160 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      161 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      162 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      163 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      164 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      165 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      166 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      167 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      168 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      169 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      170 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      171 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      172 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      173 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      174 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      175 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      176 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      177 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      178 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      179 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      180 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      181 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      182 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      183 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      184 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      185 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      186 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      187 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      188 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      189 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      190 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      191 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      192 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      193 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      194 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      195 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      196 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      197 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      198 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      199 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      200 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      201 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      202 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      203 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      204 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      205 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      206 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      207 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      208 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      209 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      210 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      211 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      212 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      213 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      214 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      215 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      216 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      217 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      218 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      219 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      220 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      221 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      222 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      223 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      224 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      225 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      226 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      227 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      228 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+Running set      229 of          230
+I got LRG1
+   K_READ_BASEL: 1 block(s) of spectra
+% Compiled module: LF_DISTMOD.
+% Program caused arithmetic error: Floating illegal operand
+% Compiled module: MWRFITS.
+% Compiled module: FXADDPAR.
+23029243  galaxies kcorrected
+Ultimate max z cut is at:  3.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  330.686
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pext_correct.py:55: RuntimeWarning: divide by zero encountered in log
+  lnchi2 = np.log(chi2)
+Done setting up bootstrap samples
+Calculating n(z)...
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/pz_utils.py:71: RuntimeWarning: invalid value encountered in greater
+  alist = np.where(lambda_err>0)[0]
+Done calculating n(z)
+Calculating n(lambda)...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+Done calculating n(lambda)
+Done calculating bonus listing of massive clusters
+[[ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]
+ [ 10.  15.  20.  20.  25.  30.  40.  60.]] [[  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]
+ [  15.   20.  100.   25.   30.   40.   60.  100.]] [ 0.1   0.15  0.2   0.25  0.3 ] [ 0.15  0.2   0.25  0.3   0.33]
+Calculating CLF...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:329: RuntimeWarning: invalid value encountered in divide
+  clf = clf/nclusters_lum/dlum
+Beginning CLF covariance calculations...
+Done calculating CLF
+Calculating P(BCG!=central)...
+    Printing P(BCG!=central)...
+    Done printing
+PCEN:  1.48882675171 406740 2013987 251633 406574.593054
+
+------------------------------------------------------------
+Sender: LSF System <lsf@orange093>
+Subject: Job 61239: <python redm_full.py param_dr8_v6.2.dat> in cluster <slac> Done
+
+Job <python redm_full.py param_dr8_v6.2.dat> was submitted from host <ki-ls10> by user <rmredd> in cluster <slac>.
+Job was executed on host(s) <orange093>, in queue <kipac-ibq>, as user <rmredd> in cluster <slac>.
+</u/ki/rmredd> was used as the home directory.
+</u/ki/rmredd/code/python/redmapper> was used as the working directory.
+Started at Mon Jan  5 15:05:20 2015
+Results reported on Tue Jan  6 01:57:16 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python redm_full.py param_dr8_v6.2.dat
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               38109.65 sec.
+    Max Memory :             31216 MB
+    Average Memory :         20783.26 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between Total Requested Memory and Max Memory.)
+    Max Swap :               44170 MB
+    Max Processes :          5
+    Max Threads :            14
+
+The output (if any) is above this job summary.
+

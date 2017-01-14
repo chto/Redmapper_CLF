@@ -1,0 +1,99 @@
+WARNING: Default is to not use lambda errors
+WARNING:  Require rpr_minlum, rpr_maxlum, skipping radial profiles
+WARNING:  Default skip do_bsat (0)
+Parameter file read successful
+Reading clusters file...
+70606  clusters read in
+0.699995
+Reading members file...
+27958454  galaxies read in
+27958454  galaxies kcorrected
+Getting central magnitudes...
+Done getting central mags
+Ultimate max z cut is at:  3.0
+Finished converting mags to log(Lsolar)
+Done renormalizing P(z)
+Max lambda:  290.017
+Done setting up bootstrap samples
+Calculating n(z)...
+Done calculating n(z)
+Calculating n(lambda)...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+Done calculating n(lambda)
+Done calculating bonus listing of massive clusters
+[[ 20.  20.  25.  30.  40.  40.  60.]
+ [ 20.  20.  25.  30.  40.  40.  60.]
+ [ 20.  20.  25.  30.  40.  40.  60.]
+ [ 20.  20.  25.  30.  40.  40.  60.]
+ [ 20.  20.  25.  30.  40.  40.  60.]
+ [ 20.  20.  25.  30.  40.  40.  60.]
+ [ 20.  20.  25.  30.  40.  40.  60.]
+ [ 20.  20.  25.  30.  40.  40.  60.]
+ [ 20.  20.  25.  30.  40.  40.  60.]
+ [ 20.  20.  25.  30.  40.  40.  60.]] [[ 100.   25.   30.   40.   60.  100.  100.]
+ [ 100.   25.   30.   40.   60.  100.  100.]
+ [ 100.   25.   30.   40.   60.  100.  100.]
+ [ 100.   25.   30.   40.   60.  100.  100.]
+ [ 100.   25.   30.   40.   60.  100.  100.]
+ [ 100.   25.   30.   40.   60.  100.  100.]
+ [ 100.   25.   30.   40.   60.  100.  100.]
+ [ 100.   25.   30.   40.   60.  100.  100.]
+ [ 100.   25.   30.   40.   60.  100.  100.]
+ [ 100.   25.   30.   40.   60.  100.  100.]] [ 0.1   0.15  0.2   0.25  0.3   0.35  0.4   0.45  0.5   0.55] [ 0.15  0.2   0.25  0.3   0.35  0.4   0.45  0.5   0.55  0.6 ]
+Calculating CLF...
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+WARNING:  Some clusters have P>1, correcting
+/afs/slac.stanford.edu/u/ki/rmredd/code/python/redmapper/redm_clf.py:329: RuntimeWarning: invalid value encountered in divide
+  clf = clf/nclusters_lum/dlum
+WARNING:  Some clusters have P>1, correcting
+Beginning CLF covariance calculations...
+Done calculating CLF
+Calculating P(BCG!=central)...
+    Printing P(BCG!=central)...
+    Done printing
+PCEN:  1.0 70606 70606 70606 70606.0
+
+------------------------------------------------------------
+Sender: LSF System <lsf@orange090>
+Subject: Job 62284: <python redm_full.py param_aa1.0_s82.dat> in cluster <slac> Done
+
+Job <python redm_full.py param_aa1.0_s82.dat> was submitted from host <ki-ls08> by user <rmredd> in cluster <slac>.
+Job was executed on host(s) <orange090>, in queue <kipac-ibq>, as user <rmredd> in cluster <slac>.
+</u/ki/rmredd> was used as the home directory.
+</u/ki/rmredd/code/python/redmapper> was used as the working directory.
+Started at Thu Apr  3 10:36:59 2014
+Results reported on Thu Apr  3 15:24:51 2014
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python redm_full.py param_aa1.0_s82.dat
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               17314.53 sec.
+    Max Memory :             20192 MB
+    Average Memory :         13910.34 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between Total Requested Memory and Max Memory.)
+    Max Swap :               20556 MB
+    Max Processes :          3
+    Max Threads :            4
+
+The output (if any) is above this job summary.
+

@@ -1,0 +1,26 @@
+#Parameter file for running MCMC multi-z fitting
+#Input directories where n(lambda), CLFs are stored
+indir  	/nfs/slac/g/ki/ki10/rmredd/redmapper_data/s82_v6.2/
+indir_uber   /nfs/slac/g/ki/ki10/rmredd/redmapper_data/s82_v6.2/
+#Output directory
+outdir	/nfs/slac/g/ki/ki10/rmredd/redmapper_data/s82_v6.2/fits_plm/
+
+#Area of data sample
+area  275.
+
+#All halo mass files and relevant redshift ranges
+#hmf_file  0.1  0.2  /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/mf_planck_z_0.15.dat /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/pk_planck_z_0.15.dat
+#hmf_file  0.2  0.3  /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/mf_planck_z_0.25.dat /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/pk_planck_z_0.25.dat
+#hmf_file  0.3  0.4  /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/mf_planck_z_0.35.dat /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/pk_planck_z_0.35.dat
+hmf_file  0.4  0.5  /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/mf_planck_z_0.45.dat /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/pk_planck_z_0.45.dat
+#hmf_file  0.5  0.6  /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/mf_planck_z_0.55.dat /nfs/slac/g/ki/ki10/rmredd/redmapper_data/mass_functions_planck/pk_planck_z_0.55.dat
+
+#Input parameters -- note that the glist is necessary, selects lambda ranges
+glist  0 1 2
+#Median lambda for each bin
+lm_med	13.0   27.4	25.3	47.5
+
+#lambda-mass relation parameters
+A_lm	     0.8620
+B_lm	     0.
+lnlm0	     3.2905
